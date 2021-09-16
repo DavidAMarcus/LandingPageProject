@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="David's Yachting">
+    <meta name="author" content="David Marcus">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <title>David Marcus Yachting</title>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1 class="highlight">David Marcus Yacht Manufacturing & Charters</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li id="current">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1 class="p-5 text-uppercase"><strong>Making your dreams come true</strong></h1>
+            <!-- I could not get this background image to be responsive for some reason. -->
+            <!-- <background:img src="Marc3.jpeg" class="img-responsive"> -->
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscribe To Our Newsletter</h1>
+            <form>
+                <input type="email" placeholder="Enter Email" title="Subscribe">
+                <button class="btn-1">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="container">
+
+        <div class="ms-5"><img src="aft1.jpeg" class="img-responsive img-thumbnail" alt="aft view of large boat"></div>
+
+        <div class="ms-5"><img src="interior1.jpeg" class="img-responsive img-thumbnail" alt="bedroom of luxury boat">
+        </div>
+
+        <div class="ms-5"><img src="interior4.jpeg" class="img-responsive img-thumbnail"
+                alt="inside sitting area of boat">
+        </div>
+
+        <div class="ms-5"><img src="aft2.jpeg" class="img-responsive img-thumbnail" alt="aft upper deck sitting area">
+        </div>
+    </div>
+
+    <section id="about">
+        <div class="container">
+            <article class="main-col">
+                <h1 class="page-title">About Us</h1>
+                <p class="light">For over 50 years we have been making dreams come true. <br> Meet with our highly
+                    experienced team today and start designing the tomorrow you have always wanted.
+                </p>
+            </article>
+
+            <aside class="sidebar">
+                <div class="light">
+                    <h3>What We Do</h3>
+                    <p>The finest materials from the far reaches of the world come together with the greatest building
+                        and design teams.
+                        <br>
+                        Bringing you a masterpiece that will provide a sense of pride to the most
+                        discerning of owners.
+                    </p>
+                </div>
+            </aside>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <article class="main-col">
+                <h1 class="page-title">Charter Services:</h1>
+                <ul>
+                    <li>
+                        <h3>Explore The South Caribbean</h3>
+                        <p>Prepare for two weeks of pure luxury as you explore the beautiful warm South Caribbean Seas.
+                        </p>
+                        <p>Pricing: $25,000 - $30,000 Per Person</p>
+                    </li>
+                    <li>
+                        <h3>Explore the Western Mediterranean</h3>
+                        <p>Spend two weeks exploring Spain, the French Riviera, and Malta!</p>
+                        <p>Pricing: $35,000 - $40,000 Per Person.</p>
+                    </li>
+                    <li>
+                        <h3>Explore the Eastern Mediterranean</h3>
+                        <p>One month of sailing aboard our finest yacht in the fleet. Sail around Italy before visiting
+                            Croatia, Montenegro, and Greece.</p>
+                        <p>Pricing begins at $50,000 Per Person.</p>
+                    </li>
+                </ul>
+            </article>
+
+            <aside class="sidebar">
+                <div class="dark">
+                    <h3>Request A Quote</h3>
+                    <form class="quote">
+                        <div>
+                            <label for="name">Name</label>
+                            <br>
+                            <input type="text" placeholder="Name" id="name">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <br>
+                            <input type="email" placeholder="Email" id="email">
+                        </div>
+                        <div>
+                            <label for="message">Message</label>
+                            <br>
+                            <textarea id="message" placeholder="Message"></textarea>
+                        </div>
+                        <button class="btn-1">Send</button>
+                    </form>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <p>David Marcus Yachting Copyright © 2021</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

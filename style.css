@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+header {
+    background-color: #0adceb;
+    color: rgb(2, 2, 2);
+    min-height: 70px;
+    border-bottom: 3px solid rgb(163, 134, 243);
+    padding: 5px 0;
+}
+
+.highlight {
+    padding-top: 20px;
+    font-family: fantasy, sans-serif;
+    font-size: 35px;
+    color: black;
+    text-decoration:double solid blue;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-1
+{
+    height: 38px;
+    background-color: #46e;
+    border: 5px solid rgb(163, 134, 243);
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+.light, .dark {
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.light {
+    background-color: #e6e6e6;
+    color: #2d2b3e;
+}
+
+.dark {
+    background-color: #2d2b3e;
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+header a {
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+header #current a {
+    color: #fff;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: rgb(99, 74, 240);
+    font-weight: bold;
+}
+
+#showcase  {
+    min-height: 600px;
+    background-image:url('Marc3.jpeg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-family: fantasy, sans-serif;
+    color: rgb(163, 134, 243);
+}
+
+#showcase h1 {
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+#newsletter {
+    border-bottom: 3px solid rgb(163, 134, 243);
+    border-top: 3px solid rgb(163, 134, 243);
+    background-color: #0adceb;
+    padding: 15px;
+    color: #fff;
+}
+
+#newsletter .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#newsletter input {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+#about {
+    border-bottom: 3px solid rgb(163, 134, 243);
+    border-top: 3px solid rgb(163, 134, 243);
+    background-color: #0adceb;
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#about .main-col {
+    color: white;
+}
+
+#about .sidebar {
+    margin-top: 10px;
+}
+
+#services .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 50px;
+} 
+
+#services li{
+    padding: 20px;
+    border: 5px solid #ccc;
+    margin-bottom: 5px;
+    background-color: #e6e6e6;
+}
+
+#services .sidebar {
+    margin-top: 10px;
+}
+
+#services input, #services textarea {
+    padding: 5px;
+    width: 90%;
+}
+
+footer {
+    font-family: 'Dancing Script', cursive;
+    background-color: #2d2b3e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 5px solid #eb4442;
+}
+
+@media (max-width: 768px) {
+    header .container,
+    #newsletter .container,
+    #boxes .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    }
+
+    #boxes .container .box {
+        width: 80%;
+    }
+
+    #about .container,
+    #services .container {
+    grid-template-columns: 1fr;
+    }
+}
+
